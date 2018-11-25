@@ -3,7 +3,7 @@ const client = new Discord.Client();
 
 
 var prefix = ".";
-client.login(process.env.TOKEN);
+client.login(TOKEN);
 client.on("ready", () => {
     console.log("Je suis prêt !")
     client.user.setActivity("vec un kiwi MiniLu");
